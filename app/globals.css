@@ -196,3 +196,24 @@ body {
   margin-top: 10px; /* Add some space above, adjust as needed */
   margin-bottom: 20px; /* Add some space below, before the animated content */
 }
+
+.grid-tight-gap {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    250px
+  ); /* Adjust based on your desired number of columns and card width */
+  gap: 40px; /* Example of a very small gap */
+  justify-content: center; /* Center the grid items if they don't fill the full width of the container */
+}
+
+.newspaper-scroll-section-inner {
+  display: flex;
+  overflow-x: auto;
+
+  padding: 20px;
+  margin: auto;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 960px; /* Maximum width */
+  gap: 10px; /* Space between items */
+}

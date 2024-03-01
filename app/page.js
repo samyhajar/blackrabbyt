@@ -5,10 +5,10 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import BlackWhite from './components/BlackWhite';
 import Books from './components/Books';
 import Footer from './components/Footer';
-import Media from './components/Media';
-import Photos from './components/Photos';
+import NewsPaper from './components/NewsPaper';
 import ScrollSection from './components/ScrollSection';
 import Testimonials from './components/Testimonials';
 import TextReveal from './components/TextReveal';
@@ -229,9 +229,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className="w-full flex justify-end items-end pr-24 mt-24">
-        <Media className="text-9xl" text="Medien" />
-      </div>
+
       <>
         {/* <Hero /> */}
         <ScrollSection />
@@ -245,10 +243,8 @@ export default function Home() {
         Meine Kernkompetenzen
       </h4>
       <TextReveal />
-      <h2 className="text-8xl text-bold text-right text-white  -mt-52">
-        Impressionen
-      </h2>
-      <Photos />
+      <BlackWhite />
+      <NewsPaper />
     </div>
   );
 }
