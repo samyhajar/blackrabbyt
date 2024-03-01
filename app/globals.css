@@ -121,10 +121,9 @@ body {
 
 .footer {
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
-  background: gray;
+  --backgroundColor: #292929;
 }
 
 .footer span {

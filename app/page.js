@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Media from './components/Media';
 import ScrollSection from './components/ScrollSection';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -221,14 +221,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="w-full flex justify-end items-end pr-24 mt-24">
-            <h2 className="text-9xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-pink-500 to-red-500 animate-gradient">
-              MEDIEN
-            </h2>
-          </div>
         </div>
       </main>
+      <div className="w-full flex justify-end items-end pr-24 mt-24">
+        <Media className="text-9xl" text="Medien" />
+      </div>
       <>
         {/* <Hero /> */}
         <ScrollSection />
