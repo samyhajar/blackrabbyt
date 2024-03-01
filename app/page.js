@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import Books from './components/Books';
 import Footer from './components/Footer';
 import Media from './components/Media';
+import Photos from './components/Photos';
 import ScrollSection from './components/ScrollSection';
 import Testimonials from './components/Testimonials';
 import TextReveal from './components/TextReveal';
@@ -85,23 +86,22 @@ export default function Home() {
       delay: 1.5,
     });
 
-    // Images animation setup to slide in slower when scrolling down
     gsap.utils.toArray('.image-wrapper').forEach((image, index) => {
-      const direction = index % 2 === 0 ? '-100%' : '100%'; // Alternate direction for each image
+      const direction = index % 2 === 0 ? '-100%' : '100%';
       gsap.fromTo(
         image,
         { x: direction, opacity: 0 },
         {
           x: '0%',
           opacity: 1,
-          duration: 2.5, // Increased duration for a slower animation
+          duration: 2.5,
           ease: 'power2.out',
           scrollTrigger: {
             trigger: image,
             start: 'top bottom-=100px',
-            end: 'center center', // Adjusted to end when the viewport is in the center
+            end: 'center center',
             toggleActions: 'play none none reverse',
-            scrub: true, // Smooth scrubbing effect for a more dynamic feel
+            scrub: true,
           },
         },
       );
@@ -115,10 +115,13 @@ export default function Home() {
 
   return (
     <div>
-      <main className="flex min-h-screen flex-col items-start justify-center bg-white font-titillium text-gray-400 p-24">
+      <div className="logo-container absolute top-0 right-0 p-5">
+        <Image src="/logo.png" alt="Logo" width={100} height={100} />
+      </div>
+      <main className="flex min-h-screen flex-col items-start justify-center  font-titillium text-gray-400 p-24">
         <div className="flex flex-col justify-center items-start h-screen">
           <span className="font-bold text-gray-400 mb-4 text-wrapper text-8xl">
-            Marcus Posser
+            Markus Posset
           </span>
           {/* Wrapped h1 in a div with class "h1-wrapper" for the animation */}
           <div className="h1-wrapper">
@@ -139,7 +142,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="flex flex-col bg-gray-200 w-full h-full image-wrapper p-10">
+            <div className="flex flex-col  w-full h-full image-wrapper p-10">
               <p className="text-2xl text-gray-600 font-bold mb-4">
                 Mag. Markus Posset MBA, MSc
               </p>
@@ -238,10 +241,14 @@ export default function Home() {
       <h2 className="text-7xl text-bold text-left text-white mb-40">
         Interessant zu wissen
       </h2>
-      <h4 className="text-4xl text-bold text-left text-white mb-40">
+      <h4 className="text-4xl text-bold text-left text-white mb-40 ml-24">
         Meine Kernkompetenzen
       </h4>
       <TextReveal />
+      <h2 className="text-8xl text-bold text-right text-white  -mt-52">
+        Impressionen
+      </h2>
+      <Photos />
     </div>
   );
 }

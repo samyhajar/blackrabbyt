@@ -43,7 +43,7 @@ export default function Home() {
         trigger: container.current,
         scrub: true,
         start: `top center`,
-        end: `+=${window.innerHeight / 1.5}`,
+        end: `+=${window.innerHeight / 3.5}`,
       },
       opacity: 1,
       ease: 'none',

@@ -28,8 +28,10 @@ const InfiniteMarquee = ({ text }) => {
     <div className=" w-full">
       <div
         ref={marqueeRef}
-        className="flex w-full text-9xl text-bold uppercase opacity-40 text-gray-600 -mt-14"
+        className="flex w-full text-9xl text-extrabold uppercase opacity-40 text-gray-600 -mt-14"
       >
+        <span className="pr-8">{text}</span>
+        <span className="pr-8">{text}</span>
         <span className="pr-8">{text}</span>
         <span className="pr-8">{text}</span>
         <span className="pr-8">{text}</span>

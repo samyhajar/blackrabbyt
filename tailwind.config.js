@@ -13,9 +13,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        titillium: ['"Titillium Web"', 'sans-serif'],
+        fontFamily: {
+          sans: ['Inter_aaf875', 'Inter_Fallback_aaf875', 'sans-serif'],
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-font-inter')],
 };

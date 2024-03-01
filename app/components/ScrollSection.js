@@ -51,7 +51,7 @@ function ScrollSection() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-            <span className="text-4xl">
+            <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
             <h3>
@@ -67,7 +67,7 @@ function ScrollSection() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-            <span className="text-4xl">
+            <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
             <h3>
@@ -83,7 +83,7 @@ function ScrollSection() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-            <span className="text-4xl">
+            <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
             <h3>
@@ -99,7 +99,7 @@ function ScrollSection() {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-            <span className="text-4xl">
+            <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
             <h3>

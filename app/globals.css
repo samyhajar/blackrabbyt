@@ -193,6 +193,6 @@ body {
   color: white; /* White text color */
   text-align: center; /* Center the text */
   width: 100%; /* Ensure it spans the full width */
-  margin-top: 100px; /* Add some space above, adjust as needed */
+  margin-top: 10px; /* Add some space above, adjust as needed */
   margin-bottom: 20px; /* Add some space below, before the animated content */
 }
