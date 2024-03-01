@@ -44,17 +44,69 @@ function ScrollSection() {
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
-          <div className="scroll-section">
-            <h3>Section 1</h3>
+          <div className="scroll-section flex flex-col items-center justify-center">
+            <iframe
+              className="max-w-3xl w-full aspect-video mx-auto rounded-lg"
+              src="https://www.youtube.com/embed/CQKiNzF0XYg"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <span className="text-4xl">
+              Goldenes Verdienstzeichen der Republik
+            </span>
+            <h3>
+              Nach der Auszeichnung im Bundeskanzleramt feierte der
+              Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
+              mit dabei und holte einige hochkarätige Gäste vor die Kamera.
+            </h3>
           </div>
-          <div className="scroll-section">
-            <h3>Section 2</h3>
+          <div className="scroll-section flex flex-col items-center justify-center">
+            <iframe
+              className="max-w-3xl w-full aspect-video mx-auto rounded-xl"
+              src="https://www.youtube.com/embed/HjF9G3T013g"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <span className="text-4xl">
+              Goldenes Verdienstzeichen der Republik
+            </span>
+            <h3>
+              Nach der Auszeichnung im Bundeskanzleramt feierte der
+              Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
+              mit dabei und holte einige hochkarätige Gäste vor die Kamera.
+            </h3>
           </div>
-          <div className="scroll-section">
-            <h3>Section 3</h3>
+          <div className="scroll-section flex flex-col items-center justify-center">
+            <iframe
+              className="max-w-3xl w-full aspect-video mx-auto rounded-xl"
+              src="https://www.youtube.com/embed/CQKiNzF0XYg"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <span className="text-4xl">
+              Goldenes Verdienstzeichen der Republik
+            </span>
+            <h3>
+              Nach der Auszeichnung im Bundeskanzleramt feierte der
+              Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
+              mit dabei und holte einige hochkarätige Gäste vor die Kamera.
+            </h3>
           </div>
-          <div className="scroll-section">
-            <h3>Section 4</h3>
+          <div className="scroll-section flex flex-col items-center justify-center">
+            <iframe
+              className="max-w-3xl w-full aspect-video mx-auto rounded-xl"
+              src="https://www.youtube.com/embed/HjF9G3T013g"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <span className="text-4xl">
+              Goldenes Verdienstzeichen der Republik
+            </span>
+            <h3>
+              Nach der Auszeichnung im Bundeskanzleramt feierte der
+              Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
+              mit dabei und holte einige hochkarätige Gäste vor die Kamera.
+            </h3>
           </div>
         </div>
       </div>

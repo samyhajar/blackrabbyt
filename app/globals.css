@@ -113,11 +113,10 @@ body {
   align-items: center;
 }
 
-.scroll-section h3 {
-  color: var(--primaryTextColor);
-  letter-spacing: var(--headlineMedium);
-  font-size: var(--headlineMedium);
-  text-transform: uppercase;
+.scroll-section h3 span {
+  color: var(--primaryColor);
+
+  font-size: 20px;
 }
 
 .footer {
