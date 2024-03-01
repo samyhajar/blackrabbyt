@@ -9,6 +9,7 @@ import Books from './components/Books';
 import Footer from './components/Footer';
 import Media from './components/Media';
 import ScrollSection from './components/ScrollSection';
+import Testimonials from './components/Testimonials';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -231,6 +232,7 @@ export default function Home() {
         {/* <Hero /> */}
         <ScrollSection />
         <Books />
+        <Testimonials />
       </>
     </div>
   );

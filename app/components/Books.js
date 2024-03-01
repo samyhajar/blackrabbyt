@@ -5,9 +5,7 @@ function Books() {
 
   return (
     <div className="footerp-10">
-      <h1 className="text-white text-9xl text-center mb-10">
-        Aktuelles Bücher
-      </h1>
+      <h1 className="text-white text-9xl text-left mb-10">Aktuelles Bücher</h1>
       <div className="flex justify-center items-center gap-10">
         {bookCovers.map((cover, index) => (
           <div
