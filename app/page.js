@@ -5,6 +5,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import Books from './components/Books';
 import Footer from './components/Footer';
 import Media from './components/Media';
 import ScrollSection from './components/ScrollSection';
@@ -229,7 +230,7 @@ export default function Home() {
       <>
         {/* <Hero /> */}
         <ScrollSection />
-        <Footer />
+        <Books />
       </>
     </div>
   );
