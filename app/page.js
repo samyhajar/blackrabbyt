@@ -234,8 +234,14 @@ export default function Home() {
         <ScrollSection />
         <Books />
         <Testimonials />
-        <TextReveal />
       </>
+      <h2 className="text-7xl text-bold text-left text-white mb-40">
+        Interessant zu wissen
+      </h2>
+      <h4 className="text-4xl text-bold text-left text-white mb-40">
+        Meine Kernkompetenzen
+      </h4>
+      <TextReveal />
     </div>
   );
 }

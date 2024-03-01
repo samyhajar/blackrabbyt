@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect, useRef } from 'react';
 
 const content = [
+  { type: 'h3', text: 'Meine Kernkompetenzen' },
   {
     type: 'p',
     text: 'Public Affairs Dienstleistung und professionelles Stakeholder Management (Lobbying) für Klienten aus Wirtschaft, Medien und Politik. Strategische Beratung und operative Umsetzung aus einer Hand.',
