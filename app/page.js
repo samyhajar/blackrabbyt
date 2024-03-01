@@ -5,7 +5,9 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import Slider from './components/Slider';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import ScrollSection from './components/ScrollSection';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -225,9 +227,13 @@ export default function Home() {
               MEDIEN
             </h2>
           </div>
-          <Slider />
         </div>
       </main>
+      <>
+        {/* <Hero /> */}
+        <ScrollSection />
+        <Footer />
+      </>
     </div>
   );
 }
