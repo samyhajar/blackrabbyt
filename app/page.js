@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Media from './components/Media';
 import ScrollSection from './components/ScrollSection';
 import Testimonials from './components/Testimonials';
+import TextReveal from './components/TextReveal';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -208,8 +209,8 @@ export default function Home() {
                         vereint. Ebenso ist er als Unternehmensberater für
                         Medien und Verlagshäuser, in der Politikberatung
                         (Regierung Balkanregion), als Medien- u. Industry
-                        Lobbyist und als Vortragender für "Journalismus und
-                        Medienmanagement" auf der Fachhochschule Wien der WKW
+                        Lobbyist und als Vortragender für Journalismus und
+                        Medienmanagement auf der Fachhochschule Wien der WKW
                         aktiv tätig. Zudem ist er als Investor bei einigen
                         Start-up Unternehmen in Österreich, Deutschland und im
                         Balkanraum engagiert. Markus POSSET ist Unterstützer des
@@ -233,6 +234,7 @@ export default function Home() {
         <ScrollSection />
         <Books />
         <Testimonials />
+        <TextReveal />
       </>
     </div>
   );

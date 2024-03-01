@@ -132,3 +132,67 @@ body {
   font-size: var(--headlineBig);
   color: var(--primaryTextColor);
 }
+
+.reveal {
+  background: var(--backgroundColor);
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.reveal-text {
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 80px;
+  color: var(--backgroundColor);
+  filter: drop-shadow(0 0 0.06rem rgb(2, 2, 2));
+}
+
+.spacing-small {
+  height: 10vh;
+}
+
+.spacing {
+  height: 40vh;
+}
+
+@media screen and (max-width: 500px) {
+  .reveal {
+    padding-left: 10px;
+  }
+}
+
+.text-reveal-main {
+  display: flex;
+  height: 80vh;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 100vh;
+  color: rgb(211, 211, 211);
+}
+
+.text-reveal-body {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-reveal-body p {
+  font-size: 3.5vw;
+  margin: 0px;
+  margin-right: 1.5vw;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.text-reveal-body span {
+  opacity: 0.2;
+}
+
+.heading-9xl {
+  font-size: 6rem; /* Adjust the size as needed */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  width: 100%; /* Ensure it spans the full width */
+  margin-top: 20px; /* Add some space above, adjust as needed */
+  margin-bottom: 20px; /* Add some space below, before the animated content */
+}
