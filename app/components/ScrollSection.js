@@ -54,7 +54,7 @@ function ScrollSection() {
             <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
-            <h3>
+            <h3 className="text-gray-600 text-center mx-auto max-w-md break-words">
               Nach der Auszeichnung im Bundeskanzleramt feierte der
               Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
               mit dabei und holte einige hochkarätige Gäste vor die Kamera.
@@ -70,7 +70,7 @@ function ScrollSection() {
             <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
-            <h3>
+            <h3 className="text-gray-600 text-center mx-auto max-w-md break-words">
               Nach der Auszeichnung im Bundeskanzleramt feierte der
               Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
               mit dabei und holte einige hochkarätige Gäste vor die Kamera.
@@ -86,7 +86,7 @@ function ScrollSection() {
             <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
-            <h3>
+            <h3 className="text-gray-600 text-center mx-auto max-w-md break-words">
               Nach der Auszeichnung im Bundeskanzleramt feierte der
               Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
               mit dabei und holte einige hochkarätige Gäste vor die Kamera.
@@ -102,7 +102,7 @@ function ScrollSection() {
             <span className="text-4xl text-white text-semibold mt-8">
               Goldenes Verdienstzeichen der Republik
             </span>
-            <h3>
+            <h3 className="text-gray-600 text-center mx-auto max-w-md break-words">
               Nach der Auszeichnung im Bundeskanzleramt feierte der
               Medienmanager und Honorarkonsul ein VIP-Event. LEADERSNET.tv war
               mit dabei und holte einige hochkarätige Gäste vor die Kamera.
